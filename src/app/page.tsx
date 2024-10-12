@@ -51,6 +51,29 @@ export default function Home(){
           </div>
         </div>
       </main>
+      <div>
+        <footer className="bg-black shadow">
+          <div className='max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 flex gap-10 text-white'>
+            <ul className='px-5 text-lg'>
+              <h2 className='text-2xl font-bold underline'>Links:</h2>
+              <li>Home</li>
+              <li>Cart</li>
+              <li>About</li>
+              <li>Contact</li>
+            </ul>
+            <ul className='px-5 text-lg'>
+              <h2 className='text-2xl font-bold underline'>Follow Us:</h2>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+            </ul>
+          </div>
+          <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+            <p className="text-center text-gray-500">&copy; 2024 Fashion Sale Ecommerce Website. All rights reserved.</p>
+            <p className="text-center text-gray-500">Powered by Next.js</p>
+          </div>
+        </footer>
+      </div>
     </div>
   );
 };
