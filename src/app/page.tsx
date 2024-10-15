@@ -6,7 +6,7 @@ export default function Home(){
       <main>
         <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
           <div className="px-4 py-6 sm:px-0">
-            <div className="border-4 border-dashed border-gray-200 rounded-lg h-96 flex justify-between">
+            <div className="border-4 border-dashed border-gray-200 rounded-lg h-96 flex justify-between" style={{ minHeight: '40vh' }}>
               
               <div className="py-20 px-10 bg-white rounded-lg">
                 <h2 className="text-4xl font-bold">Minimal Menz Style</h2>
