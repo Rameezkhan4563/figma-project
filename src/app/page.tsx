@@ -3,17 +3,6 @@ import Image from 'next/image';
 export default function Home(){
   return (
     <div className="min-h-screen bg-gray-100">
-      <header className="bg-white shadow">
-        <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 flex justify-between">
-          <h1 className="text-3xl font-bold text-gray-900">Fashion Sale Ecommerce Website</h1>
-          <ul className="font-bold text-gray-900 flex gap-5 py-3 text-lg">
-            <li className='hover:text-blue-600'>Home</li>
-            <li className='hover:text-blue-600'>Cart</li>
-            <li className='hover:text-blue-600'>About</li>
-            <li className='hover:text-blue-600'>Contact</li>
-          </ul>
-        </div>
-      </header>
       <main>
         <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
           <div className="px-4 py-6 sm:px-0">
@@ -51,29 +40,6 @@ export default function Home(){
           </div>
         </div>
       </main>
-      <div>
-        <footer className="bg-black shadow">
-          <div className='max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 flex gap-10 text-white'>
-            <ul className='px-5 text-lg'>
-              <h2 className='font-bold underline'>Links:</h2>
-              <li className='hover:text-blue-600'>Home</li>
-              <li className='hover:text-blue-600'>Cart</li>
-              <li className='hover:text-blue-600'>About</li>
-              <li className='hover:text-blue-600'>Contact</li>
-            </ul>
-            <ul className='px-5 text-lg'>
-              <h2 className='font-bold underline'>Follow Us:</h2>
-              <li className='hover:text-blue-600'>Facebook</li>
-              <li className='hover:text-blue-600'>Twitter</li>
-              <li className='hover:text-blue-600'>Instagram</li>
-            </ul>
-          </div>
-          <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-            <p className="text-center text-gray-500">&copy; 2024 Fashion Sale Ecommerce Website. All rights reserved.</p>
-            <p className="text-center text-gray-500">Powered by Next.js</p>
-          </div>
-        </footer>
-      </div>
     </div>
   );
 };
